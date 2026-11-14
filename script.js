@@ -275,7 +275,7 @@
       { org: 'Alice Blue', role: 'Software Developer · Mar 2021 – Apr 2022', pts: ['Developed FinTech applications with Django and PostgreSQL.', 'Built portfolio and SIP integrations.', 'Optimized queries and improved application performance.'] },
       { org: 'Capgemini Engineering', role: 'Software Engineer · Apr 2022 – Sep 2023', pts: ['Built a network technology data processing platform.', 'Designed Redis Pub/Sub architecture with Celery async processing.', 'Dockerized deployments and authored client onboarding guides.'] },
       { org: 'Wipro', role: 'Senior Software Engineer · Sep 2023 – Apr 2025', pts: ['Modernized monoliths into modular services and built high-performance REST APIs.', 'Migrated Python 3.8 → 3.12 and Jenkins → GitHub Actions (≈30% faster deployments).', 'Resolved 100+ production incidents; optimized APIs from 800ms to 150ms.'] },
-      { org: 'Optum', role: 'Senior Software Engineer · Apr 2025 – Present', pts: ['Vendor to direct Optum hire.', 'HR payout processing for millions of employees.', 'WARN Act reporting from 40 minutes to under 5 (92% faster).', 'AI-assisted development to boost engineering productivity.'] }
+      { org: 'Optum', role: 'Senior Software Engineer · Apr 2025 – Present', pts: ['HR payout processing for millions of employees.', 'WARN Act reporting from 40 minutes to under 5 (92% faster).', 'AI-assisted development to boost engineering productivity.'] }
     ];
     const nodes = $$('.node'), box = $('#journeyDetail'), road = $('#roadmap');
     const show = i => {
