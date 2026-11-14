@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suprit Mohanta — Senior Software Engineer | Backend · Full Stack · AI Integration</title>
+<meta name="description" content="Suprit Mohanta, Senior Software Engineer at Optum (UnitedHealth Group). Backend engineering, Python, Flask, Django, Azure, Docker, Kubernetes and AI-assisted engineering.">
+<meta name="theme-color" content="#05060a">
+<meta property="og:title" content="Suprit Mohanta — Senior Software Engineer">
+<meta property="og:description" content="Building scalable systems and meaningful engineering solutions.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="brand" aria-label="Suprit Mohanta home"><span class="brand-mark">SM</span><span class="brand-name">Suprit Mohanta</span></a>
+  <nav aria-label="Primary">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Impact</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="nav-actions">
+    <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark theme"><i class="fa-solid fa-moon"></i></button>
+    <button class="icon-btn burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="home">
+  <canvas id="neural" aria-hidden="true"></canvas>
+  <div class="mesh" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow reveal"><span class="pulse"></span> Open to impactful engineering opportunities</p>
+      <h1 class="hero-title"><span class="line"><span class="word">Suprit</span></span> <span class="line"><span class="word grad">Mohanta</span></span></h1>
+      <p class="typing-line"><span class="prompt">&gt;</span> <span id="typed" aria-live="off"></span><span class="caret"></span></p>
+      <p class="hero-sub reveal">Senior Software Engineer at <strong>Optum</strong> (UnitedHealth Group) — crafting scalable backend platforms, high-performance APIs and AI-assisted engineering workflows from Hyderabad, India.</p>
+      <div class="cta-row reveal">
+        <a class="btn primary magnetic" href="#experience"><i class="fa-solid fa-briefcase"></i> View Experience</a>
+        <a class="btn ghost magnetic" href="#achievements"><i class="fa-solid fa-rocket"></i> Explore Projects</a>
+        <a class="btn ghost magnetic" href="Suprit-Mohanta-Resume.pdf" download><i class="fa-solid fa-download"></i> Download Resume</a>
+        <a class="btn ghost magnetic" href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+      </div>
+      <ul class="socials reveal" aria-label="Social links">
+        <li><a href="https://www.linkedin.com/in/supritk16/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/suprit-kumar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="mailto:supritk16@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a href="Suprit-Mohanta-Resume.pdf" download aria-label="Download resume"><i class="fa-solid fa-file-arrow-down"></i></a></li>
+      </ul>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-wrap" data-tilt>
+        <canvas id="photoParticles" aria-hidden="true"></canvas>
+        <div class="orb o1"></div><div class="orb o2"></div>
+        <div class="ring ring-a"></div><div class="ring ring-b"></div>
+        <div class="photo">
+          <img src="profile-photo.jpg" alt="Portrait of Suprit Mohanta" width="400" height="400" fetchpriority="high" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-fallback" style="display:none"><span>SM</span></div>
+        </div>
+        <span class="float-chip c1"><i class="fa-brands fa-python"></i> Python</span>
+        <span class="float-chip c2"><i class="fa-brands fa-docker"></i> Docker</span>
+        <span class="float-chip c3"><i class="fa-solid fa-cloud"></i> Azure</span>
+        <div class="designation glass">Senior Software Engineer<small>Optum · UnitedHealth Group</small></div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">01 — About</p><h2 class="split">Engineering elegant solutions to complex problems.</h2></header>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I am a Senior Software Engineer passionate about building scalable backend systems, APIs, and data-intensive platforms.</p>
+        <p>Over the years I have contributed across <strong>Healthcare, FinTech, Networking, and EdTech</strong> sectors using Python, Flask, Django, PostgreSQL, Redis, Azure, Docker, and Cloud-native technologies.</p>
+        <p>I enjoy transforming complex business problems into elegant engineering solutions while prioritizing <em>performance, reliability, and maintainability</em>.</p>
+        <ul class="tags">
+          <li>Backend Platforms</li><li>REST APIs</li><li>Distributed Systems</li><li>Data Processing</li><li>CI/CD</li><li>AI-Assisted Engineering</li>
+        </ul>
+      </div>
+      <div class="stats">
+        <article class="stat glass" data-tilt><span class="num"><b data-count="7">0</b>+</span><span class="lbl">Years Experience</span></article>
+        <article class="stat glass" data-tilt><span class="num"><b data-count="5">0</b></span><span class="lbl">Organizations</span></article>
+        <article class="stat glass" data-tilt><span class="num"><b data-count="4">0</b></span><span class="lbl">Domains</span></article>
+        <article class="stat glass" data-tilt><span class="num"><b data-count="100">0</b>+</span><span class="lbl">Production Incidents Resolved — and countless more</span></article>
+        <article class="stat glass wide" data-tilt><span class="num"><i class="fa-solid fa-database"></i> Millions</span><span class="lbl">of records processed</span></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">02 — Experience</p><h2 class="split">A career built on shipping reliable systems.</h2></header>
+    <ol class="timeline" id="timeline">
+      <li class="t-item reveal" data-side="left">
+        <span class="t-dot"></span>
+        <article class="t-card glass" data-tilt>
+          <div class="t-meta"><span class="t-date">April 2025 – Present</span><span class="badge hot"><i class="fa-solid fa-bolt"></i> 92% Faster Processing</span></div>
+          <h3>Senior Software Engineer</h3><p class="t-org">Optum · UnitedHealth Group</p>
+          <ul>
+            <li>Worked on HR program payout processing for millions of employees.</li>
+            <li>Resolved data integrity issues across payout pipelines.</li>
+            <li>Delivered stakeholder-focused data feeds.</li>
+            <li>Re-engineered WARN Act reporting — from 40 minutes to under 5 minutes (92% performance improvement).</li>
+            <li>Leveraged AI-assisted development to accelerate delivery.</li>
+          </ul>
+        </article>
+      </li>
+      <li class="t-item reveal" data-side="right">
+        <span class="t-dot"></span>
+        <article class="t-card glass" data-tilt>
+          <div class="t-meta"><span class="t-date">Sep 2023 – Apr 2025</span><span class="badge"><i class="fa-solid fa-bug-slash"></i> 100+ Incidents Resolved</span></div>
+          <h3>Senior Software Engineer</h3><p class="t-org">Wipro</p>
+          <ul>
+            <li>Modernized monolithic systems into modular services.</li>
+            <li>Built high-performance REST APIs.</li>
+            <li>Implemented multithreaded processing.</li>
+            <li>Migrated Python 3.8 → 3.12.</li>
+            <li>Migrated Jenkins pipelines to GitHub Actions.</li>
+            <li>Resolved 100+ production incidents.</li>
+          </ul>
+          <div class="chips"><span>Faster deployments</span><span>Better scalability</span><span>Improved maintainability</span></div>
+        </article>
+      </li>
+      <li class="t-item reveal" data-side="left">
+        <span class="t-dot"></span>
+        <article class="t-card glass" data-tilt>
+          <div class="t-meta"><span class="t-date">Apr 2022 – Sep 2023</span><span class="badge"><i class="fa-solid fa-tower-broadcast"></i> Networking</span></div>
+          <h3>Software Engineer</h3><p class="t-org">Capgemini Engineering</p>
+          <ul>
+            <li>Network technology data processing platform.</li>
+            <li>Redis Pub/Sub architecture.</li>
+            <li>Celery-driven asynchronous processing.</li>
+            <li>Dockerized deployments.</li>
+            <li>Client onboarding and troubleshooting guides.</li>
+          </ul>
+        </article>
+      </li>
+      <li class="t-item reveal" data-side="right">
+        <span class="t-dot"></span>
+        <article class="t-card glass" data-tilt>
+          <div class="t-meta"><span class="t-date">Mar 2021 – Apr 2022</span><span class="badge"><i class="fa-solid fa-chart-line"></i> FinTech</span></div>
+          <h3>Software Developer</h3><p class="t-org">Alice Blue</p>
+          <ul>
+            <li>FinTech applications.</li>
+            <li>Django and PostgreSQL systems.</li>
+            <li>Portfolio and SIP integrations.</li>
+            <li>Query optimization.</li>
+            <li>Application performance improvements.</li>
+          </ul>
+        </article>
+      </li>
+      <li class="t-item reveal" data-side="left">
+        <span class="t-dot"></span>
+        <article class="t-card glass" data-tilt>
+          <div class="t-meta"><span class="t-date">May 2019 – Jan 2021</span><span class="badge"><i class="fa-solid fa-users"></i> 5000+ Users</span></div>
+          <h3>Software Developer</h3><p class="t-org">IOP Technologies</p>
+          <ul>
+            <li>Built EdTech platform.</li>
+            <li>5000+ users served.</li>
+            <li>Registration and subscription systems.</li>
+            <li>SMS and email integrations.</li>
+            <li>Authentication systems.</li>
+          </ul>
+        </article>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section" id="achievements">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">03 — Achievements</p><h2 class="split">Numbers that tell the story.</h2></header>
+    <div class="metrics">
+      <article class="metric glass reveal" data-tilt>
+        <i class="fa-solid fa-gauge-high"></i><h3>API Response Optimization</h3>
+        <p class="big"><s>800ms</s> <i class="fa-solid fa-arrow-right"></i> <b>150ms</b></p>
+        <div class="bar" role="img" aria-label="81 percent faster"><span style="--w:81%"></span></div>
+        <span class="metric-label">81% Faster APIs</span>
+      </article>
+      <article class="metric glass reveal" data-tilt>
+        <i class="fa-solid fa-file-shield"></i><h3>WARN Act Reporting</h3>
+        <p class="big"><s>40 mins</s> <i class="fa-solid fa-arrow-right"></i> <b>&lt; 5 mins</b></p>
+        <div class="bar" role="img" aria-label="92 percent faster"><span style="--w:92%"></span></div>
+        <span class="metric-label">92% Faster</span>
+      </article>
+      <article class="metric glass reveal" data-tilt>
+        <i class="fa-solid fa-rocket"></i><h3>Deployment Acceleration</h3>
+        <p class="big"><b data-count="30">0</b>%</p>
+        <div class="bar" role="img" aria-label="30 percent faster"><span style="--w:30%"></span></div>
+        <span class="metric-label">Faster Deployments</span>
+      </article>
+      <article class="metric glass reveal" data-tilt>
+        <i class="fa-solid fa-life-ring"></i><h3>Production Support</h3>
+        <p class="big"><b data-count="100">0</b>+</p>
+        <div class="bar" role="img" aria-label="Incidents resolved"><span style="--w:100%"></span></div>
+        <span class="metric-label">Incidents Resolved — and countless more</span>
+      </article>
+      <article class="metric glass reveal wide" data-tilt>
+        <i class="fa-solid fa-arrow-trend-up"></i><h3>Career Growth</h3>
+        <p class="big"><s>Vendor</s> <i class="fa-solid fa-arrow-right"></i> <b>Direct Optum Hire</b></p>
+        <span class="metric-label">Converted from vendor engineer to a full-time Optum employee</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">04 — Skills</p><h2 class="split">A modern, battle-tested toolkit.</h2></header>
+    <div class="skills-layout">
+      <div class="orbit-wrap reveal">
+        <div class="orbit" id="orbit" role="img" aria-label="Technology orbit visualization featuring Python, Flask, Django, Azure, Docker, Kubernetes, PostgreSQL, Redis">
+          <div class="core"><i class="fa-brands fa-python"></i></div>
+          <div class="orbit-ring r1"></div><div class="orbit-ring r2"></div><div class="orbit-ring r3"></div>
+        </div>
+      </div>
+      <div class="skill-filters reveal" role="tablist" aria-label="Skill categories">
+        <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="lang" role="tab" aria-selected="false">Languages</button>
+        <button class="filter" data-filter="backend" role="tab" aria-selected="false">Backend</button>
+        <button class="filter" data-filter="db" role="tab" aria-selected="false">Databases</button>
+        <button class="filter" data-filter="cloud" role="tab" aria-selected="false">Cloud &amp; DevOps</button>
+        <button class="filter" data-filter="arch" role="tab" aria-selected="false">Architecture</button>
+        <button class="filter" data-filter="ai" role="tab" aria-selected="false">AI</button>
+      </div>
+    </div>
+    <div class="skill-groups">
+      <article class="group glass reveal" data-cat="lang" data-tilt>
+        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+        <div class="meter" data-v="95"><span>Python</span><i></i></div>
+        <div class="meter" data-v="80"><span>JavaScript</span><i></i></div>
+        <div class="meter" data-v="85"><span>HTML</span><i></i></div>
+        <div class="meter" data-v="82"><span>CSS</span><i></i></div>
+        <div class="meter" data-v="90"><span>SQL</span><i></i></div>
+      </article>
+      <article class="group glass reveal" data-cat="backend" data-tilt>
+        <h3><i class="fa-solid fa-server"></i> Backend</h3>
+        <div class="meter" data-v="92"><span>Flask</span><i></i></div>
+        <div class="meter" data-v="94"><span>Django</span><i></i></div>
+        <div class="meter" data-v="90"><span>Django REST Framework</span><i></i></div>
+        <div class="meter" data-v="95"><span>REST APIs</span><i></i></div>
+        <div class="meter" data-v="88"><span>Celery</span><i></i></div>
+      </article>
+      <article class="group glass reveal" data-cat="db" data-tilt>
+        <h3><i class="fa-solid fa-database"></i> Databases</h3>
+        <div class="meter" data-v="90"><span>PostgreSQL</span><i></i></div>
+        <div class="meter" data-v="82"><span>MySQL</span><i></i></div>
+        <div class="meter" data-v="88"><span>Redis</span><i></i></div>
+      </article>
+      <article class="group glass reveal" data-cat="cloud" data-tilt>
+        <h3><i class="fa-solid fa-cloud"></i> Cloud &amp; DevOps</h3>
+        <div class="meter" data-v="82"><span>Azure</span><i></i></div>
+        <div class="meter" data-v="88"><span>Docker</span><i></i></div>
+        <div class="meter" data-v="75"><span>Kubernetes</span><i></i></div>
+        <div class="meter" data-v="88"><span>GitHub Actions</span><i></i></div>
+        <div class="meter" data-v="85"><span>Jenkins</span><i></i></div>
+        <div class="meter" data-v="90"><span>CI/CD</span><i></i></div>
+      </article>
+      <article class="group glass reveal" data-cat="arch" data-tilt>
+        <h3><i class="fa-solid fa-diagram-project"></i> Architecture</h3>
+        <div class="chips big-chips"><span>Microservices</span><span>Distributed Systems</span><span>Caching</span><span>Event Processing</span><span>ORM</span></div>
+      </article>
+      <article class="group glass reveal" data-cat="ai" data-tilt>
+        <h3><i class="fa-solid fa-brain"></i> AI &amp; Modern Engineering</h3>
+        <div class="chips big-chips"><span>AI-Assisted Development</span><span>Prompt Engineering</span><span>Engineering Productivity</span><span>Automation</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TECH IMPACT -->
+<section class="section" id="impact">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">05 — Tech Impact</p><h2 class="split">Engineering that moves the needle.</h2></header>
+    <div class="impact-grid">
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><path class="draw" d="M5 15 C60 15 60 75 110 75 S160 78 195 78" /><circle class="pt" cx="5" cy="15" r="4"/><circle class="pt" cx="195" cy="78" r="4"/></svg>
+        <h3>Performance Optimization</h3><p>API latency: <b>800ms → 150ms</b></p>
+      </article>
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><rect class="draw" x="10" y="30" width="45" height="30" rx="8"/><rect class="draw" x="78" y="30" width="45" height="30" rx="8"/><rect class="draw" x="146" y="30" width="45" height="30" rx="8"/><path class="draw" d="M55 45H78M123 45H146"/></svg>
+        <h3>Automation</h3><p><b>Celery + Redis</b> workflows</p>
+      </article>
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><path class="draw" d="M10 80 L50 60 L90 66 L130 35 L190 10"/><circle class="pt" cx="190" cy="10" r="4"/></svg>
+        <h3>Scalability</h3><p><b>Millions</b> of employee records</p>
+      </article>
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><circle class="draw" cx="45" cy="45" r="28"/><path class="draw" d="M73 45H127"/><circle class="draw" cx="155" cy="45" r="28"/></svg>
+        <h3>DevOps</h3><p><b>Jenkins → GitHub Actions</b></p>
+      </article>
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><path class="draw" d="M50 65 a22 22 0 0 1 4-43 a30 30 0 0 1 58-6 a26 26 0 0 1 36 49 z"/></svg>
+        <h3>Cloud</h3><p><b>Azure</b> deployments</p>
+      </article>
+      <article class="impact glass reveal" data-tilt>
+        <svg viewBox="0 0 200 90" aria-hidden="true"><circle class="pt" cx="40" cy="45" r="5"/><circle class="pt" cx="100" cy="20" r="5"/><circle class="pt" cx="100" cy="70" r="5"/><circle class="pt" cx="160" cy="45" r="5"/><path class="draw" d="M40 45L100 20L160 45L100 70Z M100 20V70"/></svg>
+        <h3>AI Adoption</h3><p><b>AI-assisted</b> optimization</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="section" id="philosophy">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">06 — Philosophy</p><h2 class="split">How I think about engineering.</h2></header>
+    <div class="quotes">
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-broom"></i><h3>Clean Code</h3><p>Code is read far more than it is written. Write it for the next engineer.</p></blockquote>
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-feather"></i><h3>Simplicity</h3><p>The best solution is the simplest one that solves the real problem.</p></blockquote>
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-up-right-and-down-left-from-center"></i><h3>Scalability</h3><p>Design for tomorrow's load without over-engineering today.</p></blockquote>
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-shield-halved"></i><h3>Reliability</h3><p>Trust is built through systems that behave predictably under pressure.</p></blockquote>
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-bolt"></i><h3>Performance</h3><p>Measure first, optimize deliberately, and prove the gain.</p></blockquote>
+      <blockquote class="quote glass reveal" data-tilt><i class="fa-solid fa-people-group"></i><h3>Team Collaboration</h3><p>Great software is a team sport — share context, give credit, lift others.</p></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="section" id="journey">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">07 — Career Journey</p><h2 class="split">From first commit to enterprise scale.</h2></header>
+    <div class="journey">
+      <ol class="roadmap" id="roadmap">
+        <li><button class="node active" data-i="0" aria-pressed="true"><span class="n-dot"></span><span class="n-txt"><b>IOP Technologies</b><small>2019 – 2021</small></span></button></li>
+        <li><button class="node" data-i="1" aria-pressed="false"><span class="n-dot"></span><span class="n-txt"><b>Alice Blue</b><small>2021 – 2022</small></span></button></li>
+        <li><button class="node" data-i="2" aria-pressed="false"><span class="n-dot"></span><span class="n-txt"><b>Capgemini Engineering</b><small>2022 – 2023</small></span></button></li>
+        <li><button class="node" data-i="3" aria-pressed="false"><span class="n-dot"></span><span class="n-txt"><b>Wipro</b><small>2023 – 2025</small></span></button></li>
+        <li><button class="node" data-i="4" aria-pressed="false"><span class="n-dot"></span><span class="n-txt"><b>Optum</b><small>2025 – Present</small></span></button></li>
+      </ol>
+      <div class="journey-detail glass" id="journeyDetail" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION + DOMAINS -->
+<section class="section" id="education">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">08 — Education</p><h2 class="split">Foundations.</h2></header>
+    <article class="edu glass reveal" data-tilt>
+      <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div><h3>Bachelor of Technology — Civil Engineering</h3><p>Biju Patnaik University of Technology</p><span class="badge">2012 – 2016</span></div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="domains">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">09 — Domains</p><h2 class="split">Industries I've built for.</h2></header>
+    <div class="domains">
+      <article class="domain glass reveal" tabindex="0" data-tilt><i class="fa-solid fa-heart-pulse"></i><h3>Healthcare</h3><p>HR payout processing for millions of employees, data integrity and compliance reporting at Optum.</p></article>
+      <article class="domain glass reveal" tabindex="0" data-tilt><i class="fa-solid fa-coins"></i><h3>FinTech</h3><p>Django and PostgreSQL trading-adjacent systems with portfolio and SIP integrations at Alice Blue.</p></article>
+      <article class="domain glass reveal" tabindex="0" data-tilt><i class="fa-solid fa-network-wired"></i><h3>Networking</h3><p>Network data processing with Redis Pub/Sub and Celery at Capgemini Engineering.</p></article>
+      <article class="domain glass reveal" tabindex="0" data-tilt><i class="fa-solid fa-book-open-reader"></i><h3>EdTech</h3><p>Learning platform serving 5000+ users with subscriptions, auth and messaging at IOP Technologies.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <header class="section-head reveal"><p class="kicker">10 — Contact</p><h2 class="split">Let's build something remarkable.</h2></header>
+    <div class="contact-grid">
+      <aside class="contact-side glass reveal">
+        <p>Have a project, role or idea? I'd love to hear from you.</p>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-location-dot"></i> Hyderabad, India</li>
+          <li><a href="mailto:supritk16@gmail.com"><i class="fa-solid fa-envelope"></i> supritk16@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/supritk16/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+          <li><a href="https://github.com/suprit-kumar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a></li>
+        </ul>
+        <a class="btn primary" href="mailto:supritk16@gmail.com"><i class="fa-solid fa-paper-plane"></i> Email Me</a>
+      </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p class="foot-quote">Building scalable systems and meaningful engineering solutions.</p>
+  <p>© <span id="year">2025</span> Suprit Mohanta</p>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
